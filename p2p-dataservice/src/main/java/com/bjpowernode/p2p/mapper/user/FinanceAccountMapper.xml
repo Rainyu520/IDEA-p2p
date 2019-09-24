@@ -135,4 +135,12 @@
         where
           uid=#{uId}
     </update>
+    <update id="updateRechargeByUid">
+         update
+          u_finance_account
+        set
+          available_money=available_money+ #{rechargeMoney}
+        where
+          uid=#{uId}
+    </update>
 </mapper>

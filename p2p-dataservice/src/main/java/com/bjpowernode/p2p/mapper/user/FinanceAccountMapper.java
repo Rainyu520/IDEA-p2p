@@ -73,4 +73,11 @@ public interface FinanceAccountMapper {
      * @param map
      */
     void updateAddMoneyByUid(Map<String, Object> map);
+
+    /**
+     * 修改账户余额 ：充值
+     * @param parammap
+     * @return
+     */
+    int updateRechargeByUid(Map<String, Object> parammap);
 }

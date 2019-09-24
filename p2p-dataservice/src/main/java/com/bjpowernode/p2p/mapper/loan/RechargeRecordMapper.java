@@ -57,4 +57,25 @@ public interface RechargeRecordMapper {
     List<RechargeRecord> selectRechargeRecordByUid(Map map);
 
     Long selectRechargeRecordTotalByUid(Map<String, Object> map);
+
+    /**
+     * 根据订单编号修改订单状态
+     * @param recharge
+     * @return
+     */
+    int updateRechargeRecordByRechargeNo(RechargeRecord recharge);
+
+    /**
+     * 根据订单状态查询订单
+     * @param i
+     */
+
+    List<RechargeRecord> selectRechargeRecordListByrechargeStatus(int i);
+
+    /**
+     * 根据充值订单号查询订单
+     * @param rechargeNo
+     * @return
+     */
+    RechargeRecord selectRechargeRecordByRechargeNo(String rechargeNo);
 }
