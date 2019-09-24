@@ -1,0 +1,3 @@
+p2p-dataservice
+是dubbo分布式框架中的服务的提供者
+该工程使用了Spring和MyBatis框架

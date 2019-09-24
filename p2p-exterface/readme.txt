@@ -1,0 +1,1 @@
+p2p-exterface它是dubbo官方推荐的一种开发模式，该工程里存放到实体bean和业务接口

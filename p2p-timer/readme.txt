@@ -1,0 +1,2 @@
+p2p-timer是定时器项目，它使用的是Spring Task定时器
+该工程在dubbo分布式框架中属于服务的消费者
