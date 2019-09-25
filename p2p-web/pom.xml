@@ -13,12 +13,22 @@
 
 
     <dependencies>
+
+        <dependency>
+            <groupId>com.alipay</groupId>
+            <artifactId>alipay-sdk</artifactId>
+            <version>20170324180803</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/alipay-sdk-java20170324180803.jar</systemPath>
+        </dependency>
+
         <!--httpClient依赖-->
         <dependency>
             <groupId>com.bjpowernode</groupId>
             <artifactId>HttpClient</artifactId>
             <version>1.0.0</version>
         </dependency>
+        <!--spring依赖-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>

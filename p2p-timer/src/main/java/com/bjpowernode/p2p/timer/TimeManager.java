@@ -8,6 +8,7 @@ package com.bjpowernode.p2p.timer;/**
 
 import com.bjpowernode.p2p.service.loan.BidInfoService;
 import com.bjpowernode.p2p.service.loan.IncomeRecordService;
+import com.bjpowernode.p2p.service.loan.RechargeRecordService;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,16 +23,20 @@ import org.springframework.stereotype.Component;
 public class TimeManager {
     @Autowired
     private IncomeRecordService incomeRecordService;
+    @Autowired
+    private RechargeRecordService rechargeRecordService;
+
     private Logger logger = LogManager.getLogger (TimeManager.class);
+
 
   //  @Scheduled(cron = "0/5 * * * * ?")
     private void test(){
-        logger.info ("日志开始");
+        logger.info ("生成收益计划开始");
         incomeRecordService.incomePlan();
-        logger.info ("日志结束");
+        logger.info ("生成收益计划结束");
 
     }
-    @Scheduled(cron = "0/5 * * * * ?")
+    //@Scheduled(cron = "0/5 * * * * ?")
     private void generateIncomeBack(){
 
         logger.info ("返还收益开始");
@@ -43,6 +48,12 @@ public class TimeManager {
         }
         logger.info ("返还收益结束");
     }
+    @Scheduled(cron = "0/5 * * * * ?")
+    private void recharge(){
+        logger.info ("处理掉单开始");
+        rechargeRecordService.dealRechargeRecord();
+        logger.info ("处理掉单结束");
 
+    }
 
 }

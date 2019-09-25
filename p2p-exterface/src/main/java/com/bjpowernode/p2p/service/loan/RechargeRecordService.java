@@ -34,4 +34,31 @@ public interface RechargeRecordService {
      * @param rechargeRecord
      */
     void addRechargeRecord(RechargeRecord rechargeRecord);
+
+    /**
+     * 根据充值订单号修改订单状态
+     * @param recharge
+     */
+
+    void modifyRechargeRecordByRechargeNo(RechargeRecord recharge) throws Exception;
+
+    /**
+     * 充值功能
+     * @param parammap
+     */
+    void recharge(Map<String, Object> parammap);
+
+    /**
+     * 定时器处理掉单
+     */
+
+    void dealRechargeRecord();
+
+    /**
+     * 根据充值订单号查找充值订单
+     * @param out_trade_no
+     * @return
+     */
+
+    RechargeRecord queryRechargeByRechargeNo(String out_trade_no);
 }

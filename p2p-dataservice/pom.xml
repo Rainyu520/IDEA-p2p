@@ -15,6 +15,14 @@
 
 
     <dependencies>
+        <!--httpclien依赖-->
+        <dependency>
+            <groupId>com.bjpowernode</groupId>
+            <artifactId>HttpClient</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <!--spring依赖-->
 
         <dependency>
             <groupId>org.springframework</groupId>
