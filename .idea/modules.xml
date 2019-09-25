@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Dom4J/Dom4J.iml" filepath="$PROJECT_DIR$/Dom4J/Dom4J.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HttpClient/HttpClient.iml" filepath="$PROJECT_DIR$/HttpClient/HttpClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alipay.trade.page.pay-JAVA-UTF-8/alipay.trade.page.pay-JAVA-UTF-8.iml" filepath="$PROJECT_DIR$/alipay.trade.page.pay-JAVA-UTF-8/alipay.trade.page.pay-JAVA-UTF-8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatisGenertor/mybatisGenertor.iml" filepath="$PROJECT_DIR$/mybatisGenertor/mybatisGenertor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p2p-common/p2p-common.iml" filepath="$PROJECT_DIR$/p2p-common/p2p-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p2p-dataservice/p2p-dataservice.iml" filepath="$PROJECT_DIR$/p2p-dataservice/p2p-dataservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p2p-exterface/p2p-exterface.iml" filepath="$PROJECT_DIR$/p2p-exterface/p2p-exterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p2p-parent/p2p-parent.iml" filepath="$PROJECT_DIR$/p2p-parent/p2p-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p2p-pay/p2p-pay.iml" filepath="$PROJECT_DIR$/p2p-pay/p2p-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p2p-timer/p2p-timer.iml" filepath="$PROJECT_DIR$/p2p-timer/p2p-timer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p2p-web/p2p-web.iml" filepath="$PROJECT_DIR$/p2p-web/p2p-web.iml" />
+    </modules>
+  </component>
+</project>
