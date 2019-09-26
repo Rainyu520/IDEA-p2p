@@ -16,6 +16,7 @@
         <module name="p2p-pay" />
         <module name="p2p-timer" />
         <module name="p2p-web" />
+        <module name="Test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,6 +31,7 @@
       <module name="p2p-pay" target="1.8" />
       <module name="p2p-timer" target="1.8" />
       <module name="p2p-web" target="1.8" />
+      <module name="Test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

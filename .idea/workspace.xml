@@ -2,93 +2,50 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="p2p-timer:war exploded" />
+      <artifact name="p2p-web:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1bcc0f8-29f3-4bc4-a672-c8644931d791" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/alipay_trade_page_pay_JAVA_UTF_8_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/alipay_trade_page_pay_JAVA_UTF_8_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/p2p_dataservice_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/p2p_dataservice_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/p2p_pay_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/p2p_pay_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/p2p_timer_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/p2p_timer_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/p2p_web_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/p2p_web_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e4461edb-28f0-4cb3-9cab-812bbf7ddca1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_core_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_javase_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jstl_jstl_api_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jaxen_jaxen_1_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_43.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_jcl_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_taglibs_taglibs_standard_impl_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_taglibs_taglibs_standard_spec_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_8_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_wxpay_wxpay_sdk_0_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/src/main/java/com/bjpowernode/Spring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/src/main/java/com/bjpowernode/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p2p-common/src/main/java/com/bjpowernode/p2p/utils/CRUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p2p-pay/src/main/java/com/bjpowernode/pay/web/WxpayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p2p-web/src/main/java/com/bjpowernode/p2p/web/BankCardContrller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p2p-web/src/main/webapp/bankCard.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p2p-web/src/main/webapp/img/qrCode.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p2p-web/src/main/webapp/js/bankCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p2p-web/src/main/webapp/showQrCode.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/p2p_dataservice_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/p2p_dataservice_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/p2p_pay_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/p2p_pay_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/p2p_timer_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/p2p_timer_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/p2p-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p-dataservice/target/p2p-dataservice-1.0.0/WEB-INF/lib/HttpClient-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/p2p-dataservice/target/p2p-dataservice-1.0.0/WEB-INF/lib/HttpClient-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p-dataservice/target/p2p-dataservice-1.0.0/WEB-INF/lib/p2p-common-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/p2p-dataservice/target/p2p-dataservice-1.0.0/WEB-INF/lib/p2p-common-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p-dataservice/target/p2p-dataservice-1.0.0/WEB-INF/lib/p2p-exterface-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/p2p-dataservice/target/p2p-dataservice-1.0.0/WEB-INF/lib/p2p-exterface-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p-pay/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/p2p-pay/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p-pay/src/main/java/com/bjpowernode/pay/web/AlipayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/p2p-pay/src/main/java/com/bjpowernode/pay/web/AlipayController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p-pay/target/classes/com/bjpowernode/pay/web/AlipayController.class" beforeDir="false" afterPath="$PROJECT_DIR$/p2p-pay/target/classes/com/bjpowernode/pay/web/AlipayController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p-pay/target/p2p-pay-1.0.0/WEB-INF/classes/com/bjpowernode/pay/web/AlipayController.class" beforeDir="false" afterPath="$PROJECT_DIR$/p2p-pay/target/p2p-pay-1.0.0/WEB-INF/classes/com/bjpowernode/pay/web/AlipayController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p-pay/target/p2p-pay-1.0.0/WEB-INF/lib/p2p-common-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/p2p-pay/target/p2p-pay-1.0.0/WEB-INF/lib/p2p-common-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p-web/src/main/java/com/bjpowernode/p2p/web/RechargeRecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/p2p-web/src/main/java/com/bjpowernode/p2p/web/RechargeRecordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p-web/src/main/webapp/toRecharge.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/p2p-web/src/main/webapp/toRecharge.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p-web/target/classes/com/bjpowernode/p2p/web/RechargeRecordController.class" beforeDir="false" afterPath="$PROJECT_DIR$/p2p-web/target/classes/com/bjpowernode/p2p/web/RechargeRecordController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p-web/target/p2p-web-1.0.0.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p-web/target/p2p-web-1.0.0/WEB-INF/classes/META-INF/p2p-web.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p-web/target/p2p-web-1.0.0/WEB-INF/classes/com/bjpowernode/p2p/web/RechargeRecordController.class" beforeDir="false" afterPath="$PROJECT_DIR$/p2p-web/target/p2p-web-1.0.0/WEB-INF/classes/com/bjpowernode/p2p/web/RechargeRecordController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p-web/target/p2p-web-1.0.0/WEB-INF/lib/HttpClient-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/p2p-web/target/p2p-web-1.0.0/WEB-INF/lib/HttpClient-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p-web/target/p2p-web-1.0.0/WEB-INF/lib/p2p-common-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/p2p-web/target/p2p-web-1.0.0/WEB-INF/lib/p2p-common-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p-web/target/p2p-web-1.0.0/WEB-INF/lib/p2p-exterface-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/p2p-web/target/p2p-web-1.0.0/WEB-INF/lib/p2p-exterface-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p-web/target/p2p-web-1.0.0/toRecharge.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/p2p-web/target/p2p-web-1.0.0/toRecharge.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/p2p-parent/target/" />
     <ignored path="$PROJECT_DIR$/p2p-common/target/" />
@@ -101,6 +58,7 @@
     <ignored path="$PROJECT_DIR$/HttpClient/target/" />
     <ignored path="$PROJECT_DIR$/Dom4J/target/" />
     <ignored path="$PROJECT_DIR$/alipay.trade.page.pay-JAVA-UTF-8/target/" />
+    <ignored path="$PROJECT_DIR$/Test/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,11 +91,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/p2p-pay/src/main/java/com/bjpowernode/pay/config/AlipayConfig.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/p2p-web/src/main/webapp/js/bankCard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="32" column="80" lean-forward="true" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="80" />
+            <state relative-caret-position="1386">
+              <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/p2p-web/src/main/webapp/bankCard.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="104" selection-start-line="9" selection-start-column="104" selection-end-line="9" selection-end-column="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/p2p-web/src/main/webapp/js/login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4334">
+              <caret line="197" column="6" selection-start-line="157" selection-start-column="4" selection-end-line="197" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/p2p-web/src/main/java/com/bjpowernode/p2p/web/BankCardContrller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,8 +136,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -170,6 +158,8 @@
       <find>alipay</find>
       <find>alirechargeMoney</find>
       <find>parammap</find>
+      <find>cache</find>
+      <find>verifyRealName</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -178,19 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/p2p-timer/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/p2p-timer/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/p2p-timer/src/main/resources/log4j.xml" />
-        <option value="$PROJECT_DIR$/p2p-timer/src/main/resources/applicationContext-dubbo-consumer.xml" />
-        <option value="$PROJECT_DIR$/p2p-web/src/main/java/com/bjpowernode/p2p/web/BidInfoController.java" />
-        <option value="$PROJECT_DIR$/p2p-web/src/main/webapp/loanInfo.jsp" />
-        <option value="$PROJECT_DIR$/p2p-exterface/src/main/java/com/bjpowernode/p2p/service/loan/BidInfoService.java" />
-        <option value="$PROJECT_DIR$/p2p-web/src/main/java/com/bjpowernode/p2p/web/LoanInfoController.java" />
-        <option value="$PROJECT_DIR$/p2p-exterface/src/main/java/com/bjpowernode/p2p/vo/BidUesr.java" />
-        <option value="$PROJECT_DIR$/p2p-web/src/main/webapp/loan.jsp" />
-        <option value="$PROJECT_DIR$/p2p-dataservice/src/main/java/com/bjpowernode/p2p/service/loan/LoanInfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/p2p-exterface/src/main/java/com/bjpowernode/p2p/service/loan/LoanInfoService.java" />
-        <option value="$PROJECT_DIR$/p2p-dataservice/src/main/java/com/bjpowernode/p2p/mapper/loan/LoanInfoMapper.java" />
         <option value="$PROJECT_DIR$/p2p-dataservice/src/main/java/com/bjpowernode/p2p/mapper/loan/BidInfoMapper.java" />
         <option value="$PROJECT_DIR$/p2p-dataservice/src/main/java/com/bjpowernode/p2p/mapper/loan/BidInfoMapper.xml" />
         <option value="$PROJECT_DIR$/p2p-dataservice/src/main/java/com/bjpowernode/p2p/mapper/loan/LoanInfoMapper.xml" />
@@ -200,7 +177,6 @@
         <option value="$PROJECT_DIR$/p2p-dataservice/src/main/java/com/bjpowernode/p2p/mapper/loan/IncomeRecordMapper.xml" />
         <option value="$PROJECT_DIR$/p2p-dataservice/src/main/java/com/bjpowernode/p2p/service/loan/BidInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/p2p-dataservice/src/main/java/com/bjpowernode/p2p/service/loan/IncomeRecordServiceImpl.java" />
-        <option value="$PROJECT_DIR$/p2p-web/src/main/webapp/toRecharge.jsp" />
         <option value="$PROJECT_DIR$/p2p-exterface/src/main/java/com/bjpowernode/p2p/service/loan/RedisService.java" />
         <option value="$PROJECT_DIR$/p2p-common/src/main/java/com/bjpowernode/p2p/constant/Constants.java" />
         <option value="$PROJECT_DIR$/p2p-dataservice/src/main/java/com/bjpowernode/p2p/service/loan/RedisServiceImpl.java" />
@@ -215,20 +191,34 @@
         <option value="$PROJECT_DIR$/p2p-web/src/main/webapp/test.jsp" />
         <option value="$PROJECT_DIR$/p2p-pay/src/main/java/com/bjpowernode/pay/config/AlipayConfig.java" />
         <option value="$PROJECT_DIR$/alipay.trade.page.pay-JAVA-UTF-8/pom.xml" />
-        <option value="$PROJECT_DIR$/p2p-pay/pom.xml" />
         <option value="$PROJECT_DIR$/p2p-web/src/main/java/com/bjpowernode/p2p/config/AlipayConfig.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e4461edb-28f0-4cb3-9cab-812bbf7ddca1/console.sql" />
         <option value="$PROJECT_DIR$/p2p-dataservice/src/main/java/com/bjpowernode/p2p/mapper/user/FinanceAccountMapper.java" />
         <option value="$PROJECT_DIR$/p2p-dataservice/src/main/java/com/bjpowernode/p2p/mapper/user/FinanceAccountMapper.xml" />
-        <option value="$PROJECT_DIR$/p2p-pay/src/main/java/com/bjpowernode/pay/web/AlipayController.java" />
         <option value="$PROJECT_DIR$/p2p-timer/src/main/java/com/bjpowernode/p2p/timer/TimeManager.java" />
         <option value="$PROJECT_DIR$/p2p-web/pom.xml" />
         <option value="$PROJECT_DIR$/p2p-dataservice/pom.xml" />
         <option value="$PROJECT_DIR$/p2p-dataservice/src/main/java/com/bjpowernode/p2p/mapper/loan/RechargeRecordMapper.java" />
         <option value="$PROJECT_DIR$/p2p-dataservice/src/main/java/com/bjpowernode/p2p/mapper/loan/RechargeRecordMapper.xml" />
-        <option value="$PROJECT_DIR$/p2p-web/src/main/java/com/bjpowernode/p2p/web/RechargeRecordController.java" />
         <option value="$PROJECT_DIR$/p2p-exterface/src/main/java/com/bjpowernode/p2p/service/loan/RechargeRecordService.java" />
         <option value="$PROJECT_DIR$/p2p-dataservice/src/main/java/com/bjpowernode/p2p/service/loan/RechargeRecordServiceImpl.java" />
+        <option value="$PROJECT_DIR$/p2p-common/pom.xml" />
+        <option value="$PROJECT_DIR$/Test/src/main/java/Spring.java" />
+        <option value="$PROJECT_DIR$/Test/src/main/java/Student.java" />
+        <option value="$PROJECT_DIR$/Test/pom.xml" />
+        <option value="$PROJECT_DIR$/Test/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/Test/src/main/java/com/bjpowernode/Student.java" />
+        <option value="$PROJECT_DIR$/Test/src/main/java/com/bjpowernode/Spring.java" />
+        <option value="$PROJECT_DIR$/p2p-web/src/main/webapp/toRecharge.jsp" />
+        <option value="$PROJECT_DIR$/p2p-pay/src/main/java/com/bjpowernode/pay/web/AlipayController.java" />
+        <option value="$PROJECT_DIR$/p2p-pay/pom.xml" />
+        <option value="$PROJECT_DIR$/p2p-pay/src/main/java/com/bjpowernode/pay/web/WxpayController.java" />
+        <option value="$PROJECT_DIR$/p2p-common/src/main/java/com/bjpowernode/p2p/utils/CRUtil.java" />
+        <option value="$PROJECT_DIR$/p2p-web/src/main/webapp/showQrCode.jsp" />
+        <option value="$PROJECT_DIR$/p2p-web/src/main/java/com/bjpowernode/p2p/web/RechargeRecordController.java" />
+        <option value="$PROJECT_DIR$/p2p-web/src/main/webapp/bankCard.jsp" />
+        <option value="$PROJECT_DIR$/p2p-web/src/main/webapp/js/bankCard.js" />
+        <option value="$PROJECT_DIR$/p2p-web/src/main/java/com/bjpowernode/p2p/web/BankCardContrller.java" />
       </list>
     </option>
   </component>
@@ -259,41 +249,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="alipay.trade.page.pay-JAVA-UTF-8 Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="alipay.trade.page.pay-JAVA-UTF-8 Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="alipay.trade.page.pay-JAVA-UTF-8 Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Dom4J" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Dom4J" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Dom4J" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="dom4j:dom4j:1.6.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="p2p-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -301,9 +257,9 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-DarchetypeCatalog=local" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="308" />
-    <option name="y" value="456" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="463" />
+    <option name="y" value="146" />
     <option name="width" value="1340" />
     <option name="height" value="698" />
   </component>
@@ -321,33 +277,29 @@
           <expand>
             <path>
               <item name="IDEA-p2p" type="b2602c69:ProjectViewProjectNode" />
-              <item name="p2p-dataservice" type="462c0819:PsiDirectoryNode" />
+              <item name="p2p-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IDEA-p2p" type="b2602c69:ProjectViewProjectNode" />
-              <item name="p2p-pay" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEA-p2p" type="b2602c69:ProjectViewProjectNode" />
-              <item name="p2p-pay" type="462c0819:PsiDirectoryNode" />
+              <item name="p2p-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IDEA-p2p" type="b2602c69:ProjectViewProjectNode" />
-              <item name="p2p-pay" type="462c0819:PsiDirectoryNode" />
+              <item name="p2p-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IDEA-p2p" type="b2602c69:ProjectViewProjectNode" />
-              <item name="p2p-pay" type="462c0819:PsiDirectoryNode" />
+              <item name="p2p-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IDEA-p2p" type="b2602c69:ProjectViewProjectNode" />
-              <item name="p2p-pay" type="462c0819:PsiDirectoryNode" />
+              <item name="p2p-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -355,7 +307,7 @@
             </path>
             <path>
               <item name="IDEA-p2p" type="b2602c69:ProjectViewProjectNode" />
-              <item name="p2p-pay" type="462c0819:PsiDirectoryNode" />
+              <item name="p2p-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -364,35 +316,39 @@
             </path>
             <path>
               <item name="IDEA-p2p" type="b2602c69:ProjectViewProjectNode" />
-              <item name="p2p-pay" type="462c0819:PsiDirectoryNode" />
+              <item name="p2p-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="bjpowernode" type="462c0819:PsiDirectoryNode" />
-              <item name="pay" type="462c0819:PsiDirectoryNode" />
+              <item name="p2p" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IDEA-p2p" type="b2602c69:ProjectViewProjectNode" />
-              <item name="p2p-pay" type="462c0819:PsiDirectoryNode" />
+              <item name="p2p-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="bjpowernode" type="462c0819:PsiDirectoryNode" />
-              <item name="pay" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEA-p2p" type="b2602c69:ProjectViewProjectNode" />
-              <item name="p2p-pay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bjpowernode" type="462c0819:PsiDirectoryNode" />
-              <item name="pay" type="462c0819:PsiDirectoryNode" />
+              <item name="p2p" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IDEA-p2p" type="b2602c69:ProjectViewProjectNode" />
+              <item name="p2p-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IDEA-p2p" type="b2602c69:ProjectViewProjectNode" />
+              <item name="p2p-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -406,7 +362,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569375986971" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569489062185" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/p2p-common/src/main/java/com/bjpowernode/p2p/utils" />
@@ -417,33 +373,33 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\1910\21-p2p\code\IDEA-p2p\p2p-web\src\main\webapp" />
-      <recent name="D:\1910\21-p2p\code\IDEA-p2p\p2p-dataservice\src\main\java\com\bjpowernode\mapper\loan" />
-      <recent name="D:\1910\21-p2p\code\IDEA-p2p\p2p-dataservice\src\main\java\com\bjpowernode\mapper\user" />
-      <recent name="D:\1910\21-p2p\code\IDEA-p2p\p2p-dataservice\src\main\java\com\bjpowernode\p2p\mapper\loan" />
-      <recent name="D:\1910\21-p2p\code\IDEA-p2p\p2p-dataservice\src\main\java\com\bjpowernode\p2p\mapper\user" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\1910\21-p2p\code\IDEA-p2p\p2p-web\src\main\webapp\WEB-INF" />
-      <recent name="D:\1910\21-p2p\code\IDEA-p2p\p2p-pay\src\main\webapp\WEB-INF" />
-      <recent name="D:\1910\21-p2p\code\IDEA-p2p\p2p-pay\src\main\resources" />
-      <recent name="D:\1910\21-p2p\code\IDEA-p2p\alipay.trade.page.pay-JAVA-UTF-8\src\main\java\com\alipay\config" />
-      <recent name="D:\1910\21-p2p\code\IDEA-p2p\alipay.trade.page.pay-JAVA-UTF-8\src\main\webapp" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.bjpowernode.p2p.config" />
-      <recent name="com.bjpowernode.pay.config" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.bjpowernode.p2p.utils" />
       <recent name="com.bjpowernode.p2p.vo" />
       <recent name="com.bjpowernode.p2p.service.loan" />
       <recent name="com.bjpowernode.p2p.service.user" />
       <recent name="com.bjpowernode.service.loan" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\1910\21-p2p\code\IDEA-p2p\p2p-web\src\main\webapp" />
+      <recent name="D:\1910\21-p2p\code\IDEA-p2p\p2p-web\src\main\webapp\js" />
+      <recent name="D:\1910\21-p2p\code\IDEA-p2p\p2p-web\src\main\webapp\img" />
+      <recent name="D:\1910\21-p2p\code\IDEA-p2p\p2p-web\src\main\webapp\WEB-INF" />
+      <recent name="D:\1910\21-p2p\code\IDEA-p2p\p2p-pay\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bjpowernode.p2p.config" />
+      <recent name="com.bjpowernode.pay.config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\1910\21-p2p\code\IDEA-p2p\p2p-web\src\main\webapp" />
+      <recent name="D:\1910\21-p2p\code\IDEA-p2p\p2p-dataservice\src\main\java\com\bjpowernode\mapper\loan" />
+      <recent name="D:\1910\21-p2p\code\IDEA-p2p\p2p-dataservice\src\main\java\com\bjpowernode\mapper\user" />
+      <recent name="D:\1910\21-p2p\code\IDEA-p2p\p2p-dataservice\src\main\java\com\bjpowernode\p2p\mapper\loan" />
+      <recent name="D:\1910\21-p2p\code\IDEA-p2p\p2p-dataservice\src\main\java\com\bjpowernode\p2p\mapper\user" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -458,7 +414,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Timer">
+  <component name="RunManager" selected="Tomcat Server.p2p-web">
+    <configuration name="CRUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bjpowernode.p2p.utils.CRUtil" />
+      <module name="p2p-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bjpowernode.p2p.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Timer" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.22" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER" value="false" />
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
@@ -614,6 +583,7 @@
       <option name="OPEN_IN_BROWSER" value="false" />
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8082/p2p/" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="p2p-web:war exploded">
           <settings>
@@ -763,11 +733,17 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CRUtil" />
       <item itemvalue="Tomcat Server.pay" />
       <item itemvalue="Tomcat Server.p2p-dataservice" />
       <item itemvalue="Tomcat Server.p2p-web" />
       <item itemvalue="Tomcat Server.Timer" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CRUtil" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -804,11 +780,46 @@
       <workItem from="1569196294696" duration="15773000" />
       <workItem from="1569294804313" duration="23871000" />
       <workItem from="1569374710291" duration="872000" />
+      <workItem from="1569385646108" duration="8941000" />
+      <workItem from="1569470589866" duration="15298000" />
+      <workItem from="1569499326984" duration="374000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Spring_test - 2019.09.25 at 12h 39m 51s.xml">
+      <configuration name="Spring.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Spring_test - 2019.09.25 at 12h 41m 29s.xml">
+      <configuration name="Spring.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Spring_test - 2019.09.25 at 12h 42m 58s.xml">
+      <configuration name="Spring.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Spring_test - 2019.09.25 at 12h 44m 33s.xml">
+      <configuration name="Spring.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Spring_test - 2019.09.25 at 12h 47m 06s.xml">
+      <configuration name="Spring.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Spring_test - 2019.09.25 at 12h 49m 52s.xml">
+      <configuration name="Spring.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Spring_test2 - 2019.09.26 at 08h 54m 27s.xml">
+      <configuration name="Spring.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Spring_test2 - 2019.09.26 at 08h 54m 51s.xml">
+      <configuration name="Spring.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Spring_test2 - 2019.09.26 at 08h 55m 02s.xml">
+      <configuration name="Spring.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Spring_test2 - 2019.09.26 at 08h 58m 48s.xml">
+      <configuration name="Spring.test2" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216096000" />
+    <option name="totallyTimeSpent" value="242229000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -820,10 +831,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49888393" visible="true" weight="0.27038628" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49832404" visible="true" weight="0.25697425" />
+      <window_info id="Structure" order="1" sideWeight="0.50167596" side_tool="true" weight="0.27414164" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -832,8 +844,8 @@
       <window_info id="Web" order="7" sideWeight="0.5011161" side_tool="true" weight="0.23390558" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32924107" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.80022323" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946353" weight="0.60223466" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45139664" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946353" weight="0.5977654" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32849163" />
@@ -845,7 +857,7 @@
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5005365" side_tool="true" weight="0.75558037" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32924107" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="15" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32960895" />
       <window_info anchor="bottom" id="Database Console" order="16" weight="0.32849163" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -897,6 +909,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -923,228 +945,48 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/p2p-web/src/main/java/com/bjpowernode/p2p/web/BankCardContrller.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/p2p-web/src/main/java/com/bjpowernode/p2p/web/BankCardContrller.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/p2p-dataservice/src/main/java/com/bjpowernode/p2p/service/loan/BidInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="190" column="8" selection-start-line="190" selection-start-column="8" selection-end-line="190" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p2p-dataservice/src/main/java/com/bjpowernode/p2p/mapper/loan/LoanInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="287" column="13" lean-forward="true" selection-start-line="283" selection-start-column="7" selection-end-line="287" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p2p-timer/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p2p-timer/src/main/resources/applicationContext-task.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p2p-dataservice/src/main/java/com/bjpowernode/p2p/service/loan/IncomeRecordServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="87" column="62" lean-forward="true" selection-start-line="87" selection-start-column="62" selection-end-line="87" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p2p-timer/src/main/resources/applicationContext-dubbo-consumer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p2p-web/src/main/webapp/myRecharge.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p2p-web/src/main/webapp/js/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="112" column="30" selection-start-line="112" selection-start-column="26" selection-end-line="112" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p2p-web/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="82" column="26" lean-forward="true" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/course-repository/org/springframework/spring-web/4.3.9.RELEASE/spring-web-4.3.9.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="133" selection-start-line="133" selection-end-line="133" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p2p-web/src/main/webapp/toRecharge.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p2p-exterface/src/main/java/com/bjpowernode/p2p/service/loan/RedisService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p2p-dataservice/src/main/java/com/bjpowernode/p2p/service/loan/RedisServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="36" column="91" selection-start-line="36" selection-start-column="91" selection-end-line="36" selection-end-column="91" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipay.trade.page.pay-JAVA-UTF-8/src/main/webapp/alipay.trade.close.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p2p-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="37" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p2p-pay/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p2p-pay/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipay.trade.page.pay-JAVA-UTF-8/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4290" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipay.trade.page.pay-JAVA-UTF-8/src/main/java/com/alipay/config/AlipayConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p2p-pay/src/main/resources/applicationContext-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p2p-pay/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipay.trade.page.pay-JAVA-UTF-8/src/main/webapp/alipay.trade.page.pay.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p2p-pay/src/main/webapp/payToAlipay.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p2p-web/src/main/webapp/payToPayProject.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpClient/src/main/java/com/bjpowernode/http/HttpClientUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="270" column="21" selection-start-line="270" selection-start-column="21" selection-end-line="270" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p2p-web/src/main/webapp/test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipay.trade.page.pay-JAVA-UTF-8/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
-          <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipay.trade.page.pay-JAVA-UTF-8/src/main/webapp/notify_url.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipay.trade.page.pay-JAVA-UTF-8/src/main/webapp/alipay.trade.query.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alipay.trade.page.pay-JAVA-UTF-8/src/main/webapp/alipay.trade.refund.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p2p-web/src/main/webapp/toRechargeBack.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="41" column="20" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/alipay.trade.page.pay-JAVA-UTF-8/src/main/webapp/return_url.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="700">
           <caret line="58" column="30" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="58" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p2p-pay/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="118" column="21" selection-start-line="112" selection-start-column="7" selection-end-line="118" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1167,11 +1009,6 @@
             <element signature="e#3915#3916#0" expanded="true" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p2p-web/src/main/webapp/myCenter.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/p2p-dataservice/src/main/java/com/bjpowernode/p2p/mapper/user/FinanceAccountMapper.java">
@@ -1219,16 +1056,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/p2p-web/src/main/java/com/bjpowernode/p2p/web/RechargeRecordController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="192" column="83" selection-start-line="192" selection-start-column="83" selection-end-line="192" selection-end-column="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/p2p-exterface/src/main/java/com/bjpowernode/p2p/service/loan/RechargeRecordService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="946">
@@ -1262,27 +1089,262 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/alipay_trade_page_pay_JAVA_UTF_8_war.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_101/src.zip!/java/nio/file/Path.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="97" column="17" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2p-web/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="22" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2p-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/p2p-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-572">
+        <state relative-caret-position="-2842">
           <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/p2p-pay/src/main/java/com/bjpowernode/pay/web/AlipayController.java">
+    <entry file="file://$PROJECT_DIR$/p2p-parent/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="75" column="28" lean-forward="true" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
+        <state relative-caret-position="612">
+          <caret line="270" column="12" lean-forward="true" selection-start-line="254" selection-start-column="3" selection-end-line="270" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/course-repository/org/springframework/spring-beans/4.3.9.RELEASE/spring-beans-4.3.9.RELEASE.jar!/org/springframework/beans/factory/BeanNameAware.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/course-repository/org/springframework/spring-beans/4.3.9.RELEASE/spring-beans-4.3.9.RELEASE.jar!/org/springframework/beans/factory/Aware.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/course-repository/org/springframework/spring-beans/4.3.9.RELEASE/spring-beans-4.3.9.RELEASE-sources.jar!/org/springframework/beans/factory/BeanNameAware.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/course-repository/org/springframework/spring-beans/4.3.9.RELEASE/spring-beans-4.3.9.RELEASE-sources.jar!/org/springframework/beans/factory/Aware.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="788">
+          <caret line="100" column="12" selection-start-line="100" selection-start-column="12" selection-end-line="100" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-638">
+          <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/src/main/java/com/bjpowernode/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/src/main/java/com/bjpowernode/Spring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/p2p-web/src/main/webapp/toRechargeBack.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/p2p-pay/src/main/java/com/bjpowernode/pay/config/AlipayConfig.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2p-web/src/main/java/com/bjpowernode/p2p/web/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2p-web/src/main/webapp/myRecharge.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-858" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2p-web/src/main/webapp/myIncome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1386" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2p-web/src/main/webapp/myCenter.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-990" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2p-web/src/main/webapp/myInvest.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2p-web/src/main/webapp/toRecharge.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2p-pay/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2860">
+          <caret line="130" column="22" selection-start-line="130" selection-start-column="22" selection-end-line="130" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2p-pay/src/main/java/com/bjpowernode/pay/web/AlipayController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2p-common/src/main/java/com/bjpowernode/p2p/utils/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2p-pay/src/main/java/com/bjpowernode/pay/web/WxpayController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="33" column="56" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2p-web/src/main/webapp/showQrCode.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="42" column="97" selection-start-line="42" selection-start-column="97" selection-end-line="42" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2p-web/src/main/java/com/bjpowernode/p2p/web/RechargeRecordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="277" column="23" selection-start-line="277" selection-start-column="23" selection-end-line="277" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2p-common/src/main/java/com/bjpowernode/p2p/utils/CRUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2p-web/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-704">
+          <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2p-web/src/main/java/com/bjpowernode/p2p/web/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
-          <caret line="32" column="80" lean-forward="true" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="80" />
+          <caret line="214" column="22" lean-forward="true" selection-start-line="214" selection-start-column="22" selection-end-line="214" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/course-repository/org/springframework/spring-web/4.3.9.RELEASE/spring-web-4.3.9.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2p-web/src/main/webapp/js/bankCard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2p-web/src/main/webapp/bankCard.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="104" selection-start-line="9" selection-start-column="104" selection-end-line="9" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2p-web/src/main/webapp/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4334">
+          <caret line="197" column="6" selection-start-line="157" selection-start-column="4" selection-end-line="197" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2p-web/src/main/java/com/bjpowernode/p2p/web/BankCardContrller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1340,7 +1402,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>p2p-common</last-edited>
+          <last-edited>Test</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
