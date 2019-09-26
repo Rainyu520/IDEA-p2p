@@ -15,6 +15,7 @@ import com.bjpowernode.p2p.model.loan.RechargeRecord;
 import com.bjpowernode.p2p.model.user.User;
 import com.bjpowernode.p2p.service.loan.RechargeRecordService;
 import com.bjpowernode.p2p.service.loan.RedisService;
+import com.bjpowernode.p2p.utils.CRUtil;
 import com.bjpowernode.p2p.utils.DateUtil;
 import com.bjpowernode.p2p.vo.PaginationVO;
 import org.apache.commons.lang3.StringUtils;
@@ -24,7 +25,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -140,7 +143,6 @@ public class RechargeRecordController {
             String resultString = HttpClientUtils.doPost ("http://localhost:8083/pay/api/alipayTradeQuery", map);
 
 
-
             //解析json
             JSONObject resultJson = JSONObject.parseObject (resultString);
             JSONObject alipay_trade_page_pay_response = resultJson.getJSONObject ("alipay_trade_query_response");
@@ -190,8 +192,8 @@ public class RechargeRecordController {
 
                 try {
                     //判断当前订单状态是否为0
-                    RechargeRecord rechargeRecord = rechargeRecordService.queryRechargeByRechargeNo(out_trade_no);
-                    if ("0".equals (rechargeRecord.getRechargeStatus ())){
+                    RechargeRecord rechargeRecord = rechargeRecordService.queryRechargeByRechargeNo (out_trade_no);
+                    if ("0".equals (rechargeRecord.getRechargeStatus ())) {
                         rechargeRecordService.recharge (parammap);
                     }
                 } catch (Exception e) {
@@ -213,12 +215,79 @@ public class RechargeRecordController {
     }
 
     @RequestMapping("/loan/wxpayRecharge")
-    public String wxpayRecharge(HttpServletRequest request,
+    public String wxpayRecharge(Model model, HttpServletRequest request,
                                 @RequestParam(value = "rechargeMoney", required = true) Double rechargeMoney) {
 
-        System.out.println ("wxpay" + rechargeMoney);
+        //从session取user
+        User user = (User) BaseController.getSession (request, Constants.sessionUser);
 
 
-        return "";
+        //生成充值记录
+
+        //准备订单编号  时间戳 + 随机数字
+        String rechargeNo = DateUtil.getDate () + redisService.getRandomNum ();
+        RechargeRecord rechargeRecord = new RechargeRecord ();
+        rechargeRecord.setRechargeMoney (rechargeMoney);
+        rechargeRecord.setRechargeNo (rechargeNo);
+        rechargeRecord.setRechargeStatus ("0");//0表示充值中
+        rechargeRecord.setRechargeTime (new Date ());
+        rechargeRecord.setUid (user.getId ());
+        rechargeRecord.setRechargeDesc ("微信充值");
+        try {
+            rechargeRecordService.addRechargeRecord (rechargeRecord);
+        } catch (Exception e) {
+            e.printStackTrace ();
+        }
+        //调用pay工程支付请求接口
+
+        model.addAttribute ("rechargeNo", rechargeNo);
+        model.addAttribute ("rechargeMoney", rechargeMoney);
+        model.addAttribute ("rechargeTime",new Date ());
+
+        return "showQrCode";
     }
+
+
+    @RequestMapping("/loan/generalQrCode")
+    public void generalQRCode(HttpServletRequest request, HttpServletResponse response, @RequestParam(value = "body", required = true) String body,
+                              @RequestParam(value = "rechargeNo", required = true) String rechargeNo,
+                              @RequestParam(value = "rechargeMoney", required = true) String rechargeMoney) {
+        //调用pay工程wxpay统一订单接口
+        Map<String, Object> paramMap = new HashMap<> ();
+        paramMap.put ("body", "微信充值");
+        paramMap.put ("out_trade_no", rechargeNo);
+        paramMap.put ("total_fee", rechargeMoney);
+        try {
+            String responseJson = HttpClientUtils.doPost ("http://localhost:8083/pay/api/wxpay", paramMap);
+            JSONObject jsonObject = JSONObject.parseObject (responseJson);
+            String return_code = jsonObject.getString ("return_code");
+            if (!StringUtils.equals (return_code, "SUCCESS")) {
+                //通信失败
+                response.sendRedirect (request.getContextPath () + "/toRechargeBack");
+            }
+            String result_code = jsonObject.getString ("result_code");
+            if (!StringUtils.equals (result_code, "SUCCESS")) {
+                //返回结果失败
+                response.sendRedirect (request.getContextPath () + "/toRechargeBack");
+            }
+            String code_url = jsonObject.getString ("code_url");
+            //生成流对象
+            ServletOutputStream outputStream = response.getOutputStream ();
+
+            //生成二维码
+            CRUtil.toStream (code_url,outputStream);
+
+            //关闭流资源
+          /*  outputStream.close ();
+            outputStream.flush ();*/
+
+
+        } catch (Exception e) {
+            e.printStackTrace ();
+        }
+
+
+    }
+
+
 }

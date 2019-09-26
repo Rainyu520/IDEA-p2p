@@ -23,10 +23,12 @@
             $('#chongzhi').addClass('on');
             //选择第三种支付方式
             $('#alipay').click(function () {
+                $("#payType").val("alipay")
                 $(this).addClass('img_on').append("<i></i>");
                 $(this).parent().siblings().children().removeClass('img_on');
             });
             $('#weixinpay').click(function () {
+                $("#payType").val("wxpay")
                 $(this).addClass('img_on').append("<i></i>");
                 $(this).parent().siblings().children().removeClass('img_on');
             });
@@ -35,12 +37,7 @@
         function checkData() {
             var alipay = $("#alipay").hasClass("img_on");
             var weixinpay = $("#weixinpay").hasClass("img_on");
-            if (alipay == true){
-                $("#payType").val("alipay")
-            }
-            if (weixinpay == true){
-                $("#payType").val("wxpay")
-            }
+
 
             if (alipay == false && weixinpay == false) {
                 $("#p1_1").html("请选择支付平台");
@@ -123,55 +120,56 @@
 
                 <!-- 充值start -->
                 <c:if test="${!empty sessionUser.name}">
-                    <input type="hidden" id="payType"/>
-                    <form action="${pageContext.request.contextPath}/loan/alipayRecharge" id="alipayForm">
-                        <input type="hidden" name="rechargeMoney" id="alirechargeMoney"/>
-                    </form>
-                    <form action="${pageContext.request.contextPath}/loan/wxpayRecharge" id="wxpayForm">
-                        <input type="hidden" name="rechargeMoney" id="wxrechargeMoney"/>
 
-                    </form>
 
-                    <form id="rechargeForm" action="${pageContext.request.contextPath}/loan/toRecharge" method="post"
-                          target="_blank">
-                        <div class="payInvest" style="display:block;">
-                            <div class="investMain">
-                                <h3>请选择支付平台</h3>
-                                <div class="investContent">
-                                    <div class="investOver clearfix" id="banks2">
-                                        <label>
-                                            <div class="img_cnt" id="alipay">
-                                                <img src="${pageContext.request.contextPath}/images/alipay.jpg"/>
-                                            </div>
-                                        </label>
-                                        <label>
-                                            <div class="img_cnt" id="weixinpay">
-                                                <img src="${pageContext.request.contextPath}/images/weixinpay.jpg"/>
-                                            </div>
-                                        </label>
-                                    </div>
+                    <div class="payInvest" style="display:block;">
+                        <div class="investMain">
+                            <h3>请选择支付平台</h3>
+                            <input type="hidden" id="payType"/>
+                            <div class="investContent">
+                                <div class="investOver clearfix" id="banks2">
+                                    <form action="${pageContext.request.contextPath}/loan/alipayRecharge"
+                                          id="alipayForm">
+                                        <input type="hidden" name="rechargeMoney" id="alirechargeMoney"/>
+                                    </form>
+
+                                    <label>
+                                        <div class="img_cnt" id="alipay">
+                                            <img src="${pageContext.request.contextPath}/images/alipay.jpg"/>
+                                        </div>
+                                    </label>
+                                    <form action="${pageContext.request.contextPath}/loan/wxpayRecharge" id="wxpayForm">
+                                        <input type="hidden" name="rechargeMoney" id="wxrechargeMoney"/>
+
+                                    </form>
+                                    <label>
+                                        <div class="img_cnt" id="weixinpay">
+                                            <img src="${pageContext.request.contextPath}/images/weixinpay.jpg"/>
+                                        </div>
+                                    </label>
                                 </div>
-                            </div>
-                            <div class="investFooter clearfix">
-                                <h3>请输入充值金额</h3>
-                                <div class="inputTxt">
-                                    <input type="text" name="rechargeMoney" id="rechargeMoney" value=""
-                                           class="input_text" onblur="checkData()"/>
-                                    <span class="input-yuan">元</span>
-                                    <div class="error-hint" style="display:none" id="div1_1"><i></i>
-                                        <p id="p1_1">充值金额必须是大于1的正数，且最多有两位小数</p></div>
-                                </div>
-                                <button id="action_1" type="button" onclick="submitForm()">支&nbsp;&nbsp;付</button>
-                            </div>
-                            <div class="tips">
-                                <h3>温馨提示</h3>
-                                <p>1. 为了您的使用安全，充值操作建议不要使用公共电脑。<br/>
-                                    2. 银行卡充值限额，由各银行限制。<br/>
-                                    3. 平台禁止信用卡套现、虚假交易、洗钱等行为，一经发现并确认，将终止该账户的使用。<br/>
-                                    4. 如果充值中出现问题，请联系客服400-890-0000。</p>
                             </div>
                         </div>
-                    </form>
+                        <div class="investFooter clearfix">
+                            <h3>请输入充值金额</h3>
+                            <div class="inputTxt">
+                                <input type="text" name="rechargeMoney" id="rechargeMoney" value=""
+                                       class="input_text" onblur="checkData()"/>
+                                <span class="input-yuan">元</span>
+                                <div class="error-hint" style="display:none" id="div1_1"><i></i>
+                                    <p id="p1_1">充值金额必须是大于1的正数，且最多有两位小数</p></div>
+                            </div>
+                            <button id="action_1" type="button" onclick="submitForm()">支&nbsp;&nbsp;付</button>
+                        </div>
+                        <div class="tips">
+                            <h3>温馨提示</h3>
+                            <p>1. 为了您的使用安全，充值操作建议不要使用公共电脑。<br/>
+                                2. 银行卡充值限额，由各银行限制。<br/>
+                                3. 平台禁止信用卡套现、虚假交易、洗钱等行为，一经发现并确认，将终止该账户的使用。<br/>
+                                4. 如果充值中出现问题，请联系客服400-890-0000。</p>
+                        </div>
+                    </div>
+
                 </c:if>
                 <!-- 充值end -->
             </div>

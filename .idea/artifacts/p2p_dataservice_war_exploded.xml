@@ -71,6 +71,8 @@
           <element id="archive" name="p2p-common-1.0.0.jar">
             <element id="module-output" name="p2p-common" />
           </element>
+          <element id="library" level="project" name="Maven: com.google.zxing:core:3.0.0" />
+          <element id="library" level="project" name="Maven: com.google.zxing:javase:3.0.0" />
         </element>
       </element>
       <element id="directory" name="META-INF">

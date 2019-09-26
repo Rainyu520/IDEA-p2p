@@ -94,5 +94,7 @@
     <orderEntry type="module" module-name="p2p-exterface" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.4" level="project" />
     <orderEntry type="module" module-name="p2p-common" />
+    <orderEntry type="library" name="Maven: com.google.zxing:core:3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.zxing:javase:3.0.0" level="project" />
   </component>
 </module>
