@@ -6,23 +6,17 @@ package com.bjpowernode.pay.web;/**
  * @date ：${Date}
  */
 
-import com.alibaba.fastjson.JSONObject;
 import com.alipay.api.AlipayApiException;
 import com.alipay.api.AlipayClient;
 import com.alipay.api.DefaultAlipayClient;
 import com.alipay.api.request.AlipayTradePagePayRequest;
 import com.alipay.api.request.AlipayTradeQueryRequest;
 import com.bjpowernode.pay.config.AlipayConfig;
-import org.apache.commons.lang3.StringUtils;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
-import sun.swing.StringUIClientPropertyKey;
-
-import java.util.stream.StreamSupport;
 
 /**
  * Author：Rainyu
@@ -60,30 +54,17 @@ public class AlipayController {
     @RequestMapping("/api/alipayTradeQuery")
     @ResponseBody
     public String alipayTradeQuery(Model model, @RequestParam(value = "out_trade_no", required = true) String out_trade_no) throws AlipayApiException {
-     /*   //获得初始化的AlipayClient
+
+        //获得初始化的AlipayClient
         AlipayClient alipayClient = new DefaultAlipayClient (AlipayConfig.gatewayUrl, AlipayConfig.app_id, AlipayConfig.merchant_private_key, "json", AlipayConfig.charset, AlipayConfig.alipay_public_key, AlipayConfig.sign_type);
 
         //设置请求参数
         AlipayTradeQueryRequest alipayRequest = new AlipayTradeQueryRequest ();
 
-
         alipayRequest.setBizContent ("{\"out_trade_no\":\"" + out_trade_no + "\"}");
 
         //请求
-        String resultJson = alipayClient.execute (alipayRequest).getBody ();
-
-
-        return resultJson;*/
-       //获得初始化的AlipayClient
-        AlipayClient alipayClient = new DefaultAlipayClient(AlipayConfig.gatewayUrl, AlipayConfig.app_id, AlipayConfig.merchant_private_key, "json", AlipayConfig.charset, AlipayConfig.alipay_public_key, AlipayConfig.sign_type);
-
-        //设置请求参数
-        AlipayTradeQueryRequest alipayRequest = new AlipayTradeQueryRequest();
-
-        alipayRequest.setBizContent("{\"out_trade_no\":\""+ out_trade_no +"\"}");
-
-        //请求
-        String result = alipayClient.execute(alipayRequest).getBody();
+        String result = alipayClient.execute (alipayRequest).getBody ();
 
         return result;
     }
